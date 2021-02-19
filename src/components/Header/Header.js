@@ -11,7 +11,7 @@ import { auth } from "../../Firebase";
 
 const Header = () => {
   const dispatch = useDispatch();
-  const user = useSelector(selectUser)
+  const user = useSelector(selectUser);
 
   const signOutUser = () => {
     auth.signOut().then(() => {
