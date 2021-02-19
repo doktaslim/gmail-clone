@@ -1,0 +1,51 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #178cc2 !important;
+  color: #fff !important;
+}
+
+.header__left {
+  display: flex;
+  align-items: center;
+}
+
+.header__left > .MuiIconButton-root {
+  color: #fff;
+}
+
+.header__left > img {
+  object-fit: contain;
+  height: 45px;
+  margin-left: 10px;
+}
+
+.header__middle {
+  display: flex;
+  flex-grow: 0.7;
+  align-items: center;
+  border: 1px solid #fff;
+  outline: none;
+  padding: 3px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.search__icon {
+  margin: 0 5px 0 5px;
+  color: #178cc2;
+}
+
+.search__input {
+  width: 100%;
+  padding: 0 10px 0 0;
+  font-size: medium !important;
+  font-family: "Poppins", sans-serif !important;
+  color: #251f1f !important;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+}

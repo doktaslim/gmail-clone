@@ -1,0 +1,28 @@
+.mailListSection {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    flex: 1;
+}
+
+.mailListSection:active {
+    background: #177CC2;
+}
+
+.mailListSection > .MuiSvgIcon-root {
+    margin-right: 10px;
+    color: #177CC2 !important;
+    font-size: 20px;
+}
+
+.mailListSection > h3 {
+    font-size: 14px;
+}
+
+.mailListSection:hover {
+    background: #D1E8F3;
+}
+
+.mailListSection--active {
+    border-bottom: 2px solid #177CC2;
+}
